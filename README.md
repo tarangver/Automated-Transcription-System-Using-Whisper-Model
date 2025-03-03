@@ -47,11 +47,18 @@ ffmpeg -version
 ### **3️⃣ Clone the Repository**
 
 ```bash
-git clone https://github.com/tarangver/Automated-Transcription-System-Using-Whisper-Model/transcription-system.git
+git clone https://github.com/tarangver/Automated-Transcription-System-Using-Whisper-Model.git
+cd Automated-Transcription-System-Using-Whisper-Model
 cd transcription-system
 ```
 
-### **4️⃣ Run the Transcription System**
+### **4️⃣ Install Requirements**
+
+```bash
+pip install -r reqiurement.txt
+```
+
+### **5️⃣ Run the Transcription System**
 
 ```bash
 python transcription_system.py
